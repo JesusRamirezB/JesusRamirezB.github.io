@@ -111,6 +111,10 @@ nav { display: none; }
     box-shadow: var(--bs);
 }
 
+.section__subtitle--intro {
+    display: inline-block;
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
