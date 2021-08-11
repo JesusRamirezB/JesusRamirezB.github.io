@@ -452,3 +452,17 @@ header{
 .social-list__link{
     padding: .5em;
 }
+
+/* Tecnologies */
+.techs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    list-style: none;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.techs__item {
+    margin: 0 .02em;
+}
