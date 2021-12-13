@@ -399,6 +399,12 @@ header {
 .portfolio .portfolio__img {
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.portfolio__img:hover {
+    transform: scale(.9);
 }
 
 
