@@ -10,37 +10,37 @@
 </head>
 
 <body>
-    <div style="position:absolute; top:20px; right:20px;">
-        <button id="langToggle" class="btn">ES</button>
-    </div>
+    <div style="position:absolute; top:20px; right:20px; z-index: 10;">
+    <button id="langToggle" class="btn" data-i18n="nav.toggle_btn">ES</button>
+</div>
     <header class="container">
         <div class="avatar-frame">
             <span class="avatar-placeholder">JR</span>
         </div>
 
         <h1>Jesús Ramírez</h1>
-        <p class="tagline">| Java Developer | "El Dev de Liceaga" |</p>
+        <p class="tagline" data-i18n="header.tagline">| Java Developer | "El Dev de Liceaga" |</p>
 
-        <div class="status-bar">
+        <div class="status-bar" data-i18n="header.status">
             LEVEL 25 | LOCATION: GTO, MX | CLASS: ENGINEER
         </div>
 
         <div style="margin-top: 30px;">
-            <a href="mailto:jesus.ramirez.bocanegra@gmail.com" class="btn">Start Game (Email Me)</a>
+            <a href="mailto:jesus.ramirez.bocanegra@gmail.com" class="btn" data-i18n="header.cta">Start Game (Email Me)</a>
         </div>
     </header>
 
     <main class="container">
 
         <section id="about">
-            <h2>01. PLAYER INFO</h2>
-            <p>
+            <h2 data-i18n="about.title">01. PLAYER INFO</h2>
+            <p data-i18n="[html]about.bio_p1">
                 I am a <strong>Software Developer</strong> based in the rural hills of Romita, Guanajuato. Currently
                 specializing in <strong>Java</strong>, I have a passion for tinkering with technology while enjoying the
                 quiet life away from the city noise.
             </p>
             <br>
-            <p>
+            <p data-i18n="about.bio_p2">
                 When I'm not debugging legacy code, you can find me working on my '90s trucks, playing with my kids, or
                 building tools to make rural life more connected. My goal is to become a Senior Full-Stack Developer
                 combining the discipline of engineering with the creativity of a maker.
@@ -48,59 +48,58 @@
         </section>
 
         <section id="experience">
-            <h2>02. QUEST LOG</h2>
+            <h2 data-i18n="experience.title">02. QUEST LOG</h2>
 
             <div class="job-item">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">Java Developer</div>
+                        <div class="job-title" data-i18n="experience.job1.title">Java Developer</div>
                         <div class="company">E-Global</div>
                     </div>
-                    <div class="date">Aug 2024 - Present</div>
+                    <div class="date" data-i18n="experience.job1.date">Aug 2024 - Present</div>
                 </div>
                 <ul class="job-details">
-                    <li>Maintained and analyzed incidents in legacy Java systems.</li>
-                    <li>Developed technical solutions and performed regression testing using JUnit and Mockito.</li>
-                    <li>Managed version control and documentation for banking-grade software (NCR Authentic 4.5).</li>
+                    <li data-i18n="experience.job1.desc1">Maintained and analyzed incidents in legacy Java systems.</li>
+                    <li data-i18n="experience.job1.desc2">Developed technical solutions and performed regression testing using JUnit and Mockito.</li>
+                    <li data-i18n="experience.job1.desc3">Managed version control and documentation for banking-grade software (NCR Authentic 4.5).</li>
                 </ul>
             </div>
 
             <div class="job-item">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">Junior Software Engineer</div>
+                        <div class="job-title" data-i18n="experience.job2.title">Junior Software Engineer</div>
                         <div class="company">EPAM Systems</div>
                     </div>
-                    <div class="date">Aug 2023 - Apr 2024</div>
+                    <div class="date" data-i18n="experience.job2.date">Aug 2023 - Apr 2024</div>
                 </div>
                 <ul class="job-details">
-                    <li>Developed features based on user stories in an Agile/Kanban environment.
-                    </li>
-                    <li>Implemented automated QA test suites and managed Git workflows (PRs, merges).</li>
-                    <li>Collaborated with international teams to deliver scalable web solutions.</li>
+                    <li data-i18n="experience.job2.desc1">Developed features based on user stories in an Agile/Kanban environment.</li>
+                    <li data-i18n="experience.job2.desc2">Implemented automated QA test suites and managed Git workflows (PRs, merges).</li>
+                    <li data-i18n="experience.job2.desc3">Collaborated with international teams to deliver scalable web solutions.</li>
                 </ul>
             </div>
 
             <div class="job-item">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">Developer & Support</div>
+                        <div class="job-title" data-i18n="experience.job3.title">Developer & Support</div>
                         <div class="company">CIO.MX</div>
                     </div>
-                    <div class="date">Sep 2022 - Dec 2022</div>
+                    <div class="date" data-i18n="experience.job3.date">Sep 2022 - Dec 2022</div>
                 </div>
                 <ul class="job-details">
-                    <li>Fixed bugs and maintained web system modules.</li>
-                    <li>Integrated and consumed web services for internal tools</li>
+                    <li data-i18n="experience.job3.desc1">Fixed bugs and maintained web system modules.</li>
+                    <li data-i18n="experience.job3.desc2">Integrated and consumed web services for internal tools</li>
                 </ul>
             </div>
         </section>
 
         <section id="skills">
-            <h2>03. INVENTORY</h2>
-            <p style="margin-bottom: 20px; color: #aaa;">Current tech stack and tools equipped.</p>
+            <h2 data-i18n="skills.title">03. INVENTORY</h2>
+            <p style="margin-bottom: 20px; color: #aaa;" data-i18n="skills.subtitle">Current tech stack and tools equipped.</p>
 
-            <h3 style="font-family: var(--font-retro); color: #fff; margin-bottom: 10px;">Languages & Frameworks</h3>
+            <h3 style="font-family: var(--font-retro); color: #fff; margin-bottom: 10px;" data-i18n="skills.section1">Languages & Frameworks</h3>
             <div class="skills-grid">
                 <div class="skill-tag">JAVA</div>
                 <div class="skill-tag">SQL</div>
@@ -110,8 +109,7 @@
                 <div class="skill-tag">JAVASCRIPT</div>
             </div>
 
-            <h3 style="font-family: var(--font-retro); color: #fff; margin-top: 20px; margin-bottom: 10px;">Tools &
-                Platforms</h3>
+            <h3 style="font-family: var(--font-retro); color: #fff; margin-top: 20px; margin-bottom: 10px;" data-i18n="skills.section2">Tools & Platforms</h3>
             <div class="skills-grid">
                 <div class="skill-tag">AWS</div>
                 <div class="skill-tag">GIT</div>
@@ -124,8 +122,8 @@
         </section>
 
         <section id="projects">
-            <h2>04. SIDE QUESTS</h2>
-            <p style="margin-bottom: 20px; color: #777; font-size: 0.9rem;">
+            <h2 data-i18n="projects.title">04. SIDE QUESTS</h2>
+            <p style="margin-bottom: 20px; color: #777; font-size: 0.9rem;" data-i18n="[html]projects.subtitle">
                 <span style="font-family: var(--font-retro)">[OPTIONAL]</span> Smaller builds and hackathon entries.
             </p>
 
@@ -134,7 +132,7 @@
                 <div class="project-card">
                     <div class="project-title">NoDrive-IAA</div>
                     <span class="project-tech">PYTHON • RASPBERRY PI • OPENCV</span>
-                    <p class="project-desc">
+                    <p class="project-desc" data-i18n="projects.nodrive_desc">
                         Alcolock system with facial recognition for internal combustion vehicles. Awarded 2nd Place at
                         TALEN-TIC Campus León.
                     </p>
@@ -144,9 +142,9 @@
                     <div class="project-title">Uñas Bonitas</div>
                     <span class="project-tech">HTML • CSS</span>
                     <div class="project-desc">
-                        Promotional website for a local nail salon in Romita, Gto.
-                        <br><a href="https://jesusramirezb.github.io/unias-bonitas/" target="_blank">Preview</a>
-                        <br><a href="https://github.com/JesusRamirezB/unias-bonitas" target="_blank">Repository</a>
+                        <span data-i18n="projects.unias_desc">Promotional website for a local nail salon in Romita, Gto.</span>
+                        <br><a href="https://jesusramirezb.github.io/unias-bonitas/" target="_blank" data-i18n="projects.preview">Preview</a>
+                        <br><a href="https://github.com/JesusRamirezB/unias-bonitas" target="_blank" data-i18n="projects.repo">Repository</a>
                     </div>
                 </div>
 
@@ -154,10 +152,9 @@
                     <div class="project-title">Folder Comparator</div>
                     <span class="project-tech">HTML • CSS • JavaScript</span>
                     <div class="project-desc">
-                        Web-based tool that compares contents of two folders to ensure that all files are present and
-                        identical.
-                        <br><a href="https://jesusramirezb.github.io/folder-comparator/" target="_blank">Preview</a>
-                        <br><a href="https://github.com/JesusRamirezB/folder-comparator" target="_blank">Repository</a>
+                        <span data-i18n="projects.folder_desc">Web-based tool that compares contents of two folders to ensure that all files are present and identical.</span>
+                        <br><a href="https://jesusramirezb.github.io/folder-comparator/" target="_blank" data-i18n="projects.preview">Preview</a>
+                        <br><a href="https://github.com/JesusRamirezB/folder-comparator" target="_blank" data-i18n="projects.repo">Repository</a>
                     </div>
                 </div>
 
@@ -165,8 +162,8 @@
                     <div class="project-title">DiskSpeedTest</div>
                     <span class="project-tech">Java</span>
                     <div class="project-desc">
-                        Program that measures read and write speeds of hard disks.
-                        <br><a href="https://github.com/JesusRamirezB/DiskSpeedTest" target="_blank">Repository</a>
+                        <span data-i18n="projects.disk_desc">Program that measures read and write speeds of hard disks.</span>
+                        <br><a href="https://github.com/JesusRamirezB/DiskSpeedTest" target="_blank" data-i18n="projects.repo">Repository</a>
                     </div>
                 </div>
 
@@ -174,41 +171,41 @@
                     <div class="project-title">Space shooting game</div>
                     <span class="project-tech">Python • Pygame</span>
                     <div class="project-desc">
-                        Game .
-                        <br><a href="https://github.com/JesusRamirezB/DiskSpeedTest" target="_blank">Repository</a>
+                        <span data-i18n="projects.game_desc">Shooting game built with Pygame.</span>
+                        <br><a href="https://github.com/JesusRamirezB/juego-disparos" target="_blank" data-i18n="projects.repo">Repository</a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-title">El Dev de Liceaga</div>
                     <span class="project-tech">HTML • CSS • JavaScript</span>
-                    <p class="project-desc">
-                        Personal portfolio and branding project capturing the "Rural Dev" aesthetic.
+                    <p class="project-desc" data-i18n="[html]projects.portfolio_desc">
+                        Personal portfolio and branding project capturing the "Rural Dev" aesthetic. <br>(You are already here!)
                     </p>
                 </div>
             </div>
         </section>
 
         <section id="education">
-            <h2>05. TUTORIALS</h2>
+            <h2 data-i18n="education.title">05. TUTORIALS</h2>
             <div class="job-item" style="border: none;">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">Bachelor of Computer Systems Engineering</div>
+                        <div class="job-title" data-i18n="education.degree">Bachelor of Computer Systems Engineering</div>
                         <div class="company">UVEG</div>
                     </div>
                     <div class="date">Exp. 2027</div>
                 </div>
-                <p style="color: #aaa;">Currently in progress with a focus on Software Architecture.</p>
+                <p style="color: #aaa;" data-i18n="education.degree_status">Currently in progress with a focus on Software Architecture.</p>
             </div>
 
             <div class="job-item" style="border: none;">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">English Proficiency (C2)</div>
+                        <div class="job-title" data-i18n="education.english_cert">English Proficiency (C2)</div>
                     </div>
                 </div>
-                <p style="color: #aaa;">Full professional proficiency for international collaboration.</p>
+                <p style="color: #aaa;" data-i18n="education.english_desc">Full professional proficiency for international collaboration.</p>
             </div>
         </section>
 
@@ -216,7 +213,7 @@
 
     <footer>
         <p>© 2026 Jesús Ramírez Bocanegra.</p>
-        <p>Built with <span style="color:var(--accent-green)">♥</span> in Romita, Gto.</p>
+        <p data-i18n="[html]footer.built_with">Built with <span style="color:var(--accent-green)">♥</span> in Romita, Gto.</p>
     </footer>
 
     <script src="js/script.js"></script>

@@ -1,31 +1,93 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const tagline = document.querySelector('.tagline');
-    const text = tagline.innerText;
-    tagline.innerText = '';
+document.addEventListener('DOMContentLoaded', async () => {
+    const LANG_KEY = 'LANG';
+    const DEFAULT_LANG = navigator.language.startsWith('es') ? 'es' : 'en';
 
+    let currentLang = localStorage.getItem(LANG_KEY) || DEFAULT_LANG;
+    let translations = {};
+
+    const langToggle = document.getElementById('langToggle');
+    const taglineEl = document.querySelector('.tagline');
+
+
+    async function loadTranslations(lang) {
+        const res = await fetch(`./i18n/text.json`);
+        translations = await res.json();
+    }
+
+    function getValue(obj, path) {
+        return path.split('.').reduce((acc, key) => acc?.[key], obj);
+    }
+
+    function applyTranslations() {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            let key = el.dataset.i18n;
+            let isHtml = false;
+
+            if(key.startsWith('[html]')) {
+                isHtml = true;
+                key = key.replace('[html]', '');
+            }
+
+            const value = getValue(translations[currentLang], key);
+            if(!value){
+                return;
+            }
+
+            if(isHtml){
+                el.innerHTML = value;
+            } else {
+                el.textContent = value;
+            }
+        });
+        resetTypewriter(
+            getValue(translations[currentLang], 'header.tagline')
+        );
+
+        langToggle.textContent = getValue(translations[currentLang], 'nav.toggle_btn');
+
+        document.documentElement.lang = currentLang === 'es' ? 'es-mx' : 'en';
+    }
+
+    let text = '';
     let i = 0;
-    
+    let timeout;
+
     function typeWriter() {
         if (i < text.length) {
-            tagline.innerText += text.charAt(i);
+            taglineEl.textContent += text.charAt(i);
             i++;
-            setTimeout(typeWriter, 50);
+            timeout = setTimeout(typeWriter, 50);
         } else {
-            // Start backspacing after typing is complete
-            setTimeout(backspace, 500);
+            setTimeout(backspace, 800);
         }
     }
-    
+
     function backspace() {
-        if (tagline.innerText.length > 0) {
-            tagline.innerText = tagline.innerText.slice(0, -1);
-            setTimeout(backspace, 50);
+        if (taglineEl.textContent.length > 0) {
+            taglineEl.textContent =
+                taglineEl.textContent.slice(0, -1);
+            setTimeout(backspace, 40);
         } else {
-            // Restart the cycle after backspacing is complete
             i = 0;
-            setTimeout(typeWriter, 500);
+            setTimeout(typeWriter, 400);
         }
     }
-    
-    typeWriter();
+
+    function resetTypewriter(newText) {
+        clearTimeout(timeout);
+        text = newText;
+        taglineEl.textContent = '';
+        i = 0;
+        typeWriter();
+    }
+
+    langToggle.addEventListener('click', () => {
+        currentLang = currentLang === 'en' ? 'es' : 'en';
+        localStorage.setItem(LANG_KEY, currentLang);
+        applyTranslations();
+    });
+
+    await loadTranslations();
+    applyTranslations();
+
 });
