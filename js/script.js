@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "about": {
                 "title": "01. PLAYER INFO",
                 "bio_p1": "I am a <strong>Software Developer</strong> based in the rural hills of Romita, Guanajuato. Currently specializing in <strong>Java</strong>, I have a passion for tinkering with technology while enjoying the quiet life away from the city noise.",
-                "bio_p2": "When I'm not debugging legacy code, you can find me working on my '90s trucks, playing with my kids, or building tools to make rural life more connected. My goal is to become a Senior Full-Stack Developer combining the discipline of engineering with the creativity of a maker."
+                "bio_p2": "When I'm not debugging legacy code, you can find me working on my '90s truck, taking care of my family, or building tools to make rural life more connected. My goal is to become a Senior Full-Stack Developer combining the discipline of engineering with the creativity of a maker."
             },
             "experience": {
                 "title": "02. QUEST LOG",
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "about": {
                 "title": "01. INFO DEL JUGADOR",
                 "bio_p1": "Soy un <strong>Desarrollador de Software</strong> viviendo en la zona rural de Romita, Guanajuato. Actualmente especializándome en <strong>Java</strong>, me apasiona cacharrear con tecnología mientras disfruto de la vida tranquila lejos del ruido de la ciudad.",
-                "bio_p2": "Cuando no estoy depurando código legado, me encontrarás arreglando mis camionetas de los 90s, jugando con mis hijos o construyendo herramientas para conectar mejor la vida rural. Mi meta es convertirme en Senior Full-Stack Developer combinando la disciplina de la ingeniería con la creatividad de un maker."
+                "bio_p2": "Cuando no estoy depurando código legado, me encontrarás arreglando mis camioneta de los 90s, cuidando de mi familia o construyendo herramientas para conectar mejor la vida rural. Mi meta es convertirme en Senior Full-Stack Developer combinando la disciplina de la ingeniería con la creatividad de un maker."
             },
             "experience": {
                 "title": "02. REGISTRO DE MISIONES",
