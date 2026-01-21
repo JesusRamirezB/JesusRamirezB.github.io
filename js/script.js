@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
+
     // --- 1. EMBEDDED TRANSLATIONS (NO FETCH NEEDED) ---
     const TRANSLATIONS = {
         "en": {
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             "header": {
                 "tagline": "| Java Developer | \"El Dev de Liceaga\" |",
-                "status": "LEVEL 25 | LOCATION: GTO, MX | CLASS: ENGINEER",
+                "status": "LEVEL 25 | LOCATION: GTO, MX | CLASS: DEVELOPER",
                 "cta": "Start Game (Email Me)"
             },
             "about": {
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             "projects": {
                 "title": "04. SIDE QUESTS",
-                "subtitle": "<span style='font-family: var(--font-retro)'>[OPTIONAL]</span> Smaller builds and hackathon entries.",
+                "subtitle": "<span style='font-family: var(--font-retro)'>[OPTIONAL]</span> Small builds.",
                 "nodrive_desc": "Alcolock system with facial recognition for internal combustion vehicles. Awarded 2nd Place at TALEN-TIC Campus León.",
                 "unias_desc": "Promotional website for a local nail salon in Romita, Gto.",
                 "preview": "Preview",
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "education": {
                 "title": "05. TUTORIALS",
                 "degree": "Bachelor of Computer Systems Engineering",
-                "degree_status": "Currently in progress with a focus on Software Architecture.",
+                "degree_status": "Currently in progress with a focus on Software development.",
                 "english_cert": "English Proficiency (C2)",
                 "english_desc": "Full professional proficiency for international collaboration."
             },
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             "header": {
                 "tagline": "| Desarrollador Java | \"El Dev de Liceaga\" |",
-                "status": "NIVEL 25 | UBICACIÓN: GTO, MX | CLASE: INGENIERO",
+                "status": "NIVEL 25 | UBICACIÓN: GTO, MX | CLASE: DESARROLLADOR",
                 "cta": "Iniciar Juego (Enviar Correo)"
             },
             "about": {
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             "projects": {
                 "title": "04. MISIONES SECUNDARIAS",
-                "subtitle": "<span style='font-family: var(--font-retro)'>[OPCIONAL]</span> Proyectos pequeños y hackathons.",
+                "subtitle": "<span style='font-family: var(--font-retro)'>[OPCIONAL]</span> Proyectos pequeños.",
                 "nodrive_desc": "Sistema Alcolock con reconocimiento facial para vehículos de combustión interna. Ganador del 2º Lugar en TALEN-TIC Campus León.",
                 "unias_desc": "Sitio web promocional para salón de uñas local en Romita, Gto.",
                 "preview": "Ver Demo",
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "education": {
                 "title": "05. TUTORIALES",
                 "degree": "Ingeniería en Sistemas Computacionales",
-                "degree_status": "Actualmente en progreso con enfoque en Arquitectura de Software.",
+                "degree_status": "Actualmente en progreso con enfoque en desarrollo de Software.",
                 "english_cert": "Dominio de Inglés (C2)",
                 "english_desc": "Competencia profesional completa para colaboración internacional."
             },
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const value = getValue(TRANSLATIONS[currentLang], key);
-            
+
             if (!value) return;
 
             if (isHtml) {
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
             i++;
             timeout = setTimeout(typeWriter, 50);
         } else {
-            setTimeout(backspace, 2000); 
+            setTimeout(backspace, 2000);
         }
     }
 
