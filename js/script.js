@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "about": {
                 "title": "01. INFO DEL JUGADOR",
                 "bio_p1": "Soy un <strong>Desarrollador de Software</strong> viviendo en la zona rural de Romita, Guanajuato. Actualmente especializándome en <strong>Java</strong>, me apasiona cacharrear con tecnología mientras disfruto de la vida tranquila lejos del ruido de la ciudad.",
-                "bio_p2": "Cuando no estoy depurando código legado, me encontrarás arreglando mis camioneta de los 90s, cuidando de mi familia o construyendo herramientas para conectar mejor la vida rural. Mi meta es convertirme en Senior Full-Stack Developer combinando la disciplina de la ingeniería con la creatividad de un maker."
+                "bio_p2": "Cuando no estoy depurando código legacy, me encontrarás arreglando mis camioneta de los 90s, cuidando de mi familia o construyendo herramientas para conectar mejor la vida rural. Mi meta es convertirme en Senior Full-Stack Developer combinando la disciplina de la ingeniería con la creatividad de un maker."
             },
             "experience": {
                 "title": "02. REGISTRO DE MISIONES",
