@@ -4,147 +4,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BoraJ Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
-
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Jesús Ramírez | El Dev de Liceaga</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/devboraj.PNG" alt="">
+    <div style="position:absolute; top:20px; right:20px;">
+        <button id="langToggle" class="btn">ES</button>
+    </div>
+    <header class="container">
+        <div class="avatar-frame">
+            <span class="avatar-placeholder">JR</span>
         </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
-            </ul>
 
-        </nav>
+        <h1>Jesús Ramírez</h1>
+        <p class="tagline">| Java Developer | "El Dev de Liceaga" |</p>
+
+        <div class="status-bar">
+            LEVEL 25 | LOCATION: GTO, MX | CLASS: ENGINEER
+        </div>
+
+        <div style="margin-top: 30px;">
+            <a href="mailto:jesus.ramirez.bocanegra@gmail.com" class="btn">Start Game (Email Me)</a>
+        </div>
     </header>
 
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section___title section__title--intro">
-            Hello, I'm <strong>Jesus Ramirez</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">A PROGRAMMING NEWBIE!</p>
-        <img src="img/dev-jrb01.jpg" alt="" class="intro__img" style="transform: rotate(-90deg);">
-    </section>
+    <main class="container">
 
-    <!-- My services -->
-    <section class="my--services" id="services">
-        <h2 class="section__title section__title--services">What i do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Arduino</h3>
-                <p>I enjoy creating projects using Arduino and Raspberry Pi, so come back soon once I have uploaded projects.</p>
+        <section id="about">
+            <h2>01. PLAYER INFO</h2>
+            <p>
+                I am a <strong>Software Developer</strong> based in the rural hills of Romita, Guanajuato. Currently
+                specializing in <strong>Java</strong>, I have a passion for tinkering with technology while enjoying the
+                quiet life away from the city noise.
+            </p>
+            <br>
+            <p>
+                When I'm not debugging legacy code, you can find me working on my '90s trucks, playing with my kids, or
+                building tools to make rural life more connected. My goal is to become a Senior Full-Stack Developer
+                combining the discipline of engineering with the creativity of a maker.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>02. QUEST LOG</h2>
+
+            <div class="job-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Java Developer</div>
+                        <div class="company">E-Global</div>
+                    </div>
+                    <div class="date">Aug 2024 - Present</div>
+                </div>
+                <ul class="job-details">
+                    <li>Maintained and analyzed incidents in legacy Java systems.</li>
+                    <li>Developed technical solutions and performed regression testing using JUnit and Mockito.</li>
+                    <li>Managed version control and documentation for banking-grade software (NCR Authentic 4.5).</li>
+                </ul>
             </div>
 
-            <div class="service">
-                <h3>Web development</h3>
-                <p>I'm interested in web development, at the moment I haven't done any serious projects (other than this site xD). But I'm looking forward to learning and soon develop websites.</p>
+            <div class="job-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Junior Software Engineer</div>
+                        <div class="company">EPAM Systems</div>
+                    </div>
+                    <div class="date">Aug 2023 - Apr 2024</div>
+                </div>
+                <ul class="job-details">
+                    <li>Developed features based on user stories in an Agile/Kanban environment.
+                    </li>
+                    <li>Implemented automated QA test suites and managed Git workflows (PRs, merges).</li>
+                    <li>Collaborated with international teams to deliver scalable web solutions.</li>
+                </ul>
             </div>
 
-            <div class="service">
-                <h3>Machine learning</h3>
-                <p>I hope that by 2022, I'll have become good at programming and have posted AI projects.</p>
+            <div class="job-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Developer & Support</div>
+                        <div class="company">CIO.MX</div>
+                    </div>
+                    <div class="date">Sep 2022 - Dec 2022</div>
+                </div>
+                <ul class="job-details">
+                    <li>Fixed bugs and maintained web system modules.</li>
+                    <li>Integrated and consumed web services for internal tools</li>
+                </ul>
             </div>
-        </div>
+        </section>
 
-        <a href="#work" class="btn">My work</a>
-    </section>
+        <section id="skills">
+            <h2>03. INVENTORY</h2>
+            <p style="margin-bottom: 20px; color: #aaa;">Current tech stack and tools equipped.</p>
 
-    <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">I'm just an engineering student, that's very passionate about technology.</p>
+            <h3 style="font-family: var(--font-retro); color: #fff; margin-bottom: 10px;">Languages & Frameworks</h3>
+            <div class="skills-grid">
+                <div class="skill-tag">JAVA</div>
+                <div class="skill-tag">SQL</div>
+                <div class="skill-tag">REACT JS</div>
+                <div class="skill-tag">PYTHON</div>
+                <div class="skill-tag">TYPESCRIPT</div>
+                <div class="skill-tag">JAVASCRIPT</div>
+            </div>
 
-        <div class="about-me__body">
-            <p>Hello, my name's Jesús Ramírez Bocanegra. I was born in a city called Romita, located in the state of Guanajuato in Mexico. I'm 21 years old and I thank you for taking part of your time to check out my site.</p>
-            <p>I'm a biomedical engineering student at the Universidad Politecnica del Bicentenario, located in the city 'Silao de la Victoria' in the state of Guanajuato in Mexico.</p>
+            <h3 style="font-family: var(--font-retro); color: #fff; margin-top: 20px; margin-bottom: 10px;">Tools &
+                Platforms</h3>
+            <div class="skills-grid">
+                <div class="skill-tag">AWS</div>
+                <div class="skill-tag">GIT</div>
+                <div class="skill-tag">GITHUB / GITLAB</div>
+                <div class="skill-tag">LINUX</div>
+                <div class="skill-tag">JIRA</div>
+                <div class="skill-tag">POSTGRESQL</div>
+                <div class="skill-tag">ORACLE</div>
+            </div>
+        </section>
 
-        </div>
+        <section id="projects">
+            <h2>04. SIDE QUESTS</h2>
+            <p style="margin-bottom: 20px; color: #777; font-size: 0.9rem;">
+                <span style="font-family: var(--font-retro)">[OPTIONAL]</span> Smaller builds and hackathon entries.
+            </p>
 
-        <img src="img/dev-jrb02.jpg" alt="Jesus with headset" class="about-me__img">
-        <div>
-            <ul class="techs">
-                <li class="techs__item"><i class="fab fa-css3-alt fa-7x"></i></li>
-                <li class="techs__item"><i class="fab fa-js fa-7x"></i></li>
-                <li class="techs__item"><i class="fab fa-html5 fa-7x"></i></li>
-                <li class="techs__item"><i class="fab fa-php fa-7x"></i></li>
-                <li class="techs__item"><i class="fab fa-python fa-7x"></i></li>
-            </ul>
-        </div>
-    </section>
+            <div class="project-grid">
 
-    <!-- My work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section___title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">Here you can see my personal projects, click on any of the images and it'll take you to a live preview.</p>
+                <div class="project-card">
+                    <div class="project-title">NoDrive-IAA</div>
+                    <span class="project-tech">PYTHON • RASPBERRY PI • OPENCV</span>
+                    <p class="project-desc">
+                        Alcolock system with facial recognition for internal combustion vehicles. Awarded 2nd Place at
+                        TALEN-TIC Campus León.
+                    </p>
+                </div>
 
-        <div class="portfolio">
-            <!-- Portfolio item 01-->
-            <a href="https://jesusramirezb.github.io/store-products/" class="portfolio__item" target="_blank">
-                <img src="img/storeProductsAndPrices.PNG" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 02 -->
-            <a href="https://jesusramirezb.github.io/the-odin-project-rock-paper-scissors/" class="portfolio__item" target="_blank">
-                <img src="img/ppt.PNG" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 03 -->
-            <a href="https://jesusramirezb.github.io/the-odin-project-etchASketck/" class="portfolio__item" target="_blank">
-                <img src="img/etch.PNG" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 04 -->
-            <a href="https://jesusramirezb.github.io/video-player/" class="portfolio__item" target="_blank">
-                <img src="img/videoPlayer.png" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 05 -->
-            <a href="https://jesusramirezb.github.io/nemium/" class="portfolio__item" target="_blank">
-                <img src="./img/Thumbnail-medium.jpg" alt="" class="portfolio__img">
-            </a>
-        </div>
-    </section>
+                <div class="project-card">
+                    <div class="project-title">Uñas Bonitas</div>
+                    <span class="project-tech">HTML • CSS</span>
+                    <div class="project-desc">
+                        Promotional website for a local nail salon in Romita, Gto.
+                        <br><a href="https://jesusramirezb.github.io/unias-bonitas/" target="_blank">Preview</a>
+                        <br><a href="https://github.com/JesusRamirezB/unias-bonitas" target="_blank">Repository</a>
+                    </div>
+                </div>
 
+                <div class="project-card">
+                    <div class="project-title">Folder Comparator</div>
+                    <span class="project-tech">HTML • CSS • JavaScript</span>
+                    <div class="project-desc">
+                        Web-based tool that compares contents of two folders to ensure that all files are present and
+                        identical.
+                        <br><a href="https://jesusramirezb.github.io/folder-comparator/" target="_blank">Preview</a>
+                        <br><a href="https://github.com/JesusRamirezB/folder-comparator" target="_blank">Repository</a>
+                    </div>
+                </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <a href="mailto:jesus.ramirez.bocanegra@gmail.com" class="footer__link" target="_blank">jesus.ramirez.bocanegra@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.facebook.com/JesusRamirezBocanegra2000" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com/JesusBora000" target="_blank">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/JesusRamirezB" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-            </li>
-        </ul>
+                <div class="project-card">
+                    <div class="project-title">DiskSpeedTest</div>
+                    <span class="project-tech">Java</span>
+                    <div class="project-desc">
+                        Program that measures read and write speeds of hard disks.
+                        <br><a href="https://github.com/JesusRamirezB/DiskSpeedTest" target="_blank">Repository</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Space shooting game</div>
+                    <span class="project-tech">Python • Pygame</span>
+                    <div class="project-desc">
+                        Game .
+                        <br><a href="https://github.com/JesusRamirezB/DiskSpeedTest" target="_blank">Repository</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">El Dev de Liceaga</div>
+                    <span class="project-tech">HTML • CSS • JavaScript</span>
+                    <p class="project-desc">
+                        Personal portfolio and branding project capturing the "Rural Dev" aesthetic.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>05. TUTORIALS</h2>
+            <div class="job-item" style="border: none;">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Bachelor of Computer Systems Engineering</div>
+                        <div class="company">UVEG</div>
+                    </div>
+                    <div class="date">Exp. 2027</div>
+                </div>
+                <p style="color: #aaa;">Currently in progress with a focus on Software Architecture.</p>
+            </div>
+
+            <div class="job-item" style="border: none;">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">English Proficiency (C2)</div>
+                    </div>
+                </div>
+                <p style="color: #aaa;">Full professional proficiency for international collaboration.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Jesús Ramírez Bocanegra.</p>
+        <p>Built with <span style="color:var(--accent-green)">♥</span> in Romita, Gto.</p>
     </footer>
 
-    <script src="js/index.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
