@@ -8,7 +8,7 @@
         },
         "header": {
             "name": "Jesús Ramírez",
-            "tagline": "| Java Developer | \"El Dev de Liceaga\" |",
+            "tagline": "| Developer | \"El Dev de Liceaga\" |",
             "status": "LEVEL 25 | LOCATION: GTO, MX | CLASS: DEVELOPER",
             "cta": "Start Game (Email Me)"
         },
@@ -73,6 +73,13 @@
             "link_repo": "Repository",
             "items": [
                 {
+                    "title": "Rental Management App",
+                    "tech": "REACT • CSS • REACT ROUTER",
+                    "desc": "Mobile-first rental management web app for a small party equipment business. Designed to manage rentals efficiently with a clean, responsive UI optimized for real-world use.",
+                    "link_preview": "https://rental-management-ivory.vercel.app/",
+                    "link_repo": "https://github.com/JesusRamirezB/rental-management"
+                },
+                {
                     "title": "Rentas Andy & Emi",
                     "tech": "REACT • CSS • VERCEL",
                     "desc": "Modern product catalog and quoting app for an event rental business. Digitizes a traditional PDF catalog into an interactive web experience with direct WhatsApp checkout.",
@@ -83,13 +90,6 @@
                     "title": "NoDrive-IAA",
                     "tech": "PYTHON • RASPBERRY PI • OPENCV",
                     "desc": "Alcolock system with facial recognition for internal combustion vehicles. Awarded 2nd Place at TALEN-TIC Campus León."
-                },
-                {
-                    "title": "Uñas Bonitas",
-                    "tech": "HTML • CSS",
-                    "desc": "Promotional website for a local nail salon in Romita, Gto.",
-                    "link_preview": "https://jesusramirezb.github.io/unias-bonitas/",
-                    "link_repo": "https://github.com/JesusRamirezB/unias-bonitas"
                 },
                 {
                     "title": "Folder Comparator",
@@ -109,16 +109,11 @@
                     "tech": "Python • Pygame",
                     "desc": "Retro space shooting game built with Pygame.",
                     "link_repo": "https://github.com/JesusRamirezB/juego-disparos"
-                },
-                {
-                    "title": "El Dev de Liceaga",
-                    "tech": "HTML • CSS • JavaScript",
-                    "desc": "Personal portfolio and branding project capturing the \"Rural Dev\" aesthetic. <br>(You are already here!)"
                 }
             ]
         },
         "education": {
-            "title": "05. TUTORIALS",
+            "title": "05. TROPHIES",
             "degree": "Bachelor of Computer Systems Engineering",
             "school": "UVEG",
             "degree_date": "Exp. 2027",
@@ -140,7 +135,7 @@
         },
         "header": {
             "name": "Jesús Ramírez",
-            "tagline": "| Desarrollador Java | \"El Dev de Liceaga\" |",
+            "tagline": "| Desarrollador | \"El Dev de Liceaga\" |",
             "status": "NIVEL 25 | UBICACIÓN: GTO, MX | CLASE: DESARROLLADOR",
             "cta": "Iniciar Juego (Enviar Correo)"
         },
@@ -205,6 +200,13 @@
             "link_repo": "Repositorio",
             "items": [
                 {
+                    "title": "Rental Management App",
+                    "tech": "REACT • CSS • REACT ROUTER",
+                    "desc": "Aplicación web mobile-first para la gestión de rentas de mobiliario para eventos. Diseñada para administrar pedidos y disponibilidad de manera eficiente, con una interfaz limpia y responsiva pensada para uso real.",
+                    "link_preview": "https://rental-management-ivory.vercel.app/",
+                    "link_repo": "https://github.com/JesusRamirezB/rental-management"
+                },
+                {
                     "title": "Rentas Andy & Emi",
                     "tech": "REACT • CSS • VERCEL",
                     "desc": "Aplicación web responsiva para catálogo y cotización de mobiliario de eventos. Digitaliza el catálogo PDF tradicional en una experiencia interactiva con integración de pedidos por WhatsApp.",
@@ -215,13 +217,6 @@
                     "title": "NoDrive-IAA",
                     "tech": "PYTHON • RASPBERRY PI • OPENCV",
                     "desc": "Sistema Alcolock con reconocimiento facial para vehículos de combustión interna. Ganador del 2º Lugar en TALEN-TIC Campus León."
-                },
-                {
-                    "title": "Uñas Bonitas",
-                    "tech": "HTML • CSS",
-                    "desc": "Sitio web promocional para salón de uñas local en Romita, Gto.",
-                    "link_preview": "https://jesusramirezb.github.io/unias-bonitas/",
-                    "link_repo": "https://github.com/JesusRamirezB/unias-bonitas"
                 },
                 {
                     "title": "Folder Comparator",
@@ -241,16 +236,11 @@
                     "tech": "Python • Pygame",
                     "desc": "Juego retro de disparos construido con Pygame.",
                     "link_repo": "https://github.com/JesusRamirezB/juego-disparos"
-                },
-                {
-                    "title": "El Dev de Liceaga",
-                    "tech": "HTML • CSS • JavaScript",
-                    "desc": "Portafolio personal y branding capturando la estética del \"Dev Rural\". <br>(¡Ya estás aquí!)"
                 }
             ]
         },
         "education": {
-            "title": "05. TUTORIALS",
+            "title": "05. TROFEOS",
             "degree": "Ingeniería en Sistemas Computacionales",
             "school": "UVEG",
             "degree_date": "Exp. 2027",
