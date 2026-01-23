@@ -8,14 +8,14 @@
         },
         "header": {
             "name": "Jesús Ramírez",
-            "tagline": "| Developer | \"El Dev de Liceaga\" |",
-            "status": "LEVEL 25 | LOCATION: GTO, MX | CLASS: DEVELOPER",
+            "tagline": "| Software Developer (Java / JavaScript) | \"El Dev de Liceaga\" |",
+            "status": "LEVEL 25 | LOCATION: GTO, MX | BACKEND & FRONTEND",
             "cta": "Start Game (Email Me)"
         },
         "about": {
             "title": "01. PLAYER INFO",
-            "bio_p1": "I am a <strong>Software Developer</strong> based in the rural hills of Romita, Guanajuato. Currently specializing in <strong>Java</strong>, I have a passion for tinkering with technology while enjoying the quiet life away from the city noise.",
-            "bio_p2": "When I'm not debugging legacy code, you can find me working on my '90s truck, taking care of my family, or building tools to make rural life more connected. My goal is to become a Senior Full-Stack Developer combining the discipline of engineering with the creativity of a maker."
+            "bio_p1": "I am a <strong>Software Developer</strong> based in the rural hills of Romita, Guanajuato, specializing in <strong>Java</strong> and modern <strong>JavaScript</strong> technologies. I enjoy working on both enterprise-grade systems and practical web applications that solve real-world problems.",
+            "bio_p2": "When I'm not debugging legacy code, you can find me working on my '90s truck, taking care of my family, or building tools that help small businesses go digital. My goal is — to grow into a Senior Full-Stack Developer, combining strong engineering discipline with hands-on creativity."
         },
         "experience": {
             "title": "02. QUEST LOG",
@@ -23,24 +23,24 @@
                 "title": "Java Developer",
                 "company": "E-Global",
                 "date": "Aug 2024 - Present",
-                "desc1": "Mitigated high and very-high priority security vulnerabilities and code defects detected by Kiuwan static analysis.",
-                "desc2": "Maintained legacy Java systems, performing regression testing using JUnit and Mockito to ensure stability.",
-                "desc3": "Managed version control and documentation for banking-grade software (NCR Authentic 4.5)."
+                "desc1": "Investigate and resolve incidents in mission-critical electronic payment systems processing millions of daily debit and credit card transactions.",
+                "desc2": "Mitigate high and very-high priority security and code defects detected by Kiuwan static analysis, applying non-invasive fixes without altering business logic.",
+                "desc3": "Execute pre- and post-mitigation unit and regression tests using JUnit and Mockito, as well as non-affectation transaction testing across multiple acquirers and issuers using ISO 8583 (NCR Authentic 4.5)."
             },
             "job2": {
                 "title": "Junior Software Engineer",
                 "company": "EPAM Systems",
                 "date": "Aug 2023 - Apr 2024",
-                "desc1": "Developed features based on user stories in an Agile/Kanban environment.",
-                "desc2": "Implemented automated QA test suites and managed Git workflows (PRs, merges).",
-                "desc3": "Collaborated with international teams to deliver scalable web solutions."
+                "desc1": "Contributed to a hospital management web application focused on patient data and appointment tracking.",
+                "desc2": "Fixed bugs, implemented new features, and updated frontend components as backend APIs evolved based on user feedback.",
+                "desc3": "Worked with Next.js in a serverless AWS environment (EC2, S3, CloudFront, DynamoDB), supporting a system previously backed by PostgreSQL."
             },
             "job3": {
                 "title": "Developer & Support",
                 "company": "CIO.MX",
                 "date": "Sep 2022 - Dec 2022",
-                "desc1": "Fixed bugs and maintained web system modules.",
-                "desc2": "Integrated and consumed web services for internal tools"
+                "desc1": "Fixed bugs and maintained internal web system modules.",
+                "desc2": "Integrated and consumed web services to support internal business tools."
             }
         },
         "skills": {
@@ -75,39 +75,39 @@
                 {
                     "title": "Rental Management App",
                     "tech": "REACT • CSS • REACT ROUTER",
-                    "desc": "Mobile-first rental management web app for a small party equipment business. Designed to manage rentals efficiently with a clean, responsive UI optimized for real-world use.",
+                    "desc": "Mobile-first rental management web app built for a real party equipment business, focused on usability, responsive design, and real-world workflows.",
                     "link_preview": "https://rental-management-ivory.vercel.app/",
                     "link_repo": "https://github.com/JesusRamirezB/rental-management"
                 },
                 {
                     "title": "Rentas Andy & Emi",
                     "tech": "REACT • CSS • VERCEL",
-                    "desc": "Modern product catalog and quoting app for an event rental business. Digitizes a traditional PDF catalog into an interactive web experience with direct WhatsApp checkout.",
+                    "desc": "Interactive product catalog and quotation system that replaces a traditional PDF catalog with a modern web experience and direct WhatsApp checkout.",
                     "link_preview": "https://rentas-andy-emi.vercel.app/",
                     "link_repo": "https://github.com/JesusRamirezB/rentas-andy-emi"
                 },
                 {
                     "title": "NoDrive-IAA",
                     "tech": "PYTHON • RASPBERRY PI • OPENCV",
-                    "desc": "Alcolock system with facial recognition for internal combustion vehicles. Awarded 2nd Place at TALEN-TIC Campus León."
+                    "desc": "Facial-recognition alcohol lock system for combustion-engine vehicles. Awarded 2nd Place at TALEN-TIC Campus León."
                 },
                 {
                     "title": "Folder Comparator",
                     "tech": "HTML • CSS • JavaScript",
-                    "desc": "Web-based tool that compares contents of two folders to ensure that all files are present and identical.",
+                    "desc": "Web-based tool that compares the contents of two folders to ensure files are present and identical.",
                     "link_preview": "https://jesusramirezb.github.io/folder-comparator/",
                     "link_repo": "https://github.com/JesusRamirezB/folder-comparator"
                 },
                 {
                     "title": "DiskSpeedTest",
                     "tech": "Java",
-                    "desc": "Program that measures read and write speeds of hard disks.",
+                    "desc": "Java program that measures hard disk read and write speeds.",
                     "link_repo": "https://github.com/JesusRamirezB/DiskSpeedTest"
                 },
                 {
                     "title": "Space Shooting Game",
                     "tech": "Python • Pygame",
-                    "desc": "Retro space shooting game built with Pygame.",
+                    "desc": "Retro-style space shooting game built with Pygame.",
                     "link_repo": "https://github.com/JesusRamirezB/juego-disparos"
                 }
             ]
@@ -116,8 +116,8 @@
             "title": "05. TROPHIES",
             "degree": "Bachelor of Computer Systems Engineering",
             "school": "UVEG",
-            "degree_date": "Exp. 2027",
-            "degree_status": "Currently in progress with a focus on Software development.",
+            "degree_date": "Expected 2027",
+            "degree_status": "Currently in progress with a focus on Software Development.",
             "english_cert": "English Proficiency (C2)",
             "english_desc": "Full professional proficiency for international collaboration."
         },
@@ -135,14 +135,14 @@
         },
         "header": {
             "name": "Jesús Ramírez",
-            "tagline": "| Desarrollador | \"El Dev de Liceaga\" |",
-            "status": "NIVEL 25 | UBICACIÓN: GTO, MX | CLASE: DESARROLLADOR",
+            "tagline": "| Desarrollador de Software (Java / JavaScript) | \"El Dev de Liceaga\" |",
+            "status": "NIVEL 25 | UBICACIÓN: GTO, MX | BACKEND & FRONTEND",
             "cta": "Iniciar Juego (Enviar Correo)"
         },
         "about": {
             "title": "01. INFO DEL JUGADOR",
-            "bio_p1": "Soy un <strong>Desarrollador de Software</strong> viviendo en la zona rural de Romita, Guanajuato. Actualmente especializándome en <strong>Java</strong>, me apasiona cacharrear con tecnología mientras disfruto de la vida tranquila lejos del ruido de la ciudad.",
-            "bio_p2": "Cuando no estoy depurando código legacy, me encontrarás arreglando mi camioneta de los 90s, cuidando de mi familia o construyendo herramientas para conectar mejor la vida rural. Mi meta es convertirme en Senior Full-Stack Developer combinando la disciplina de la ingeniería con la creatividad de un maker."
+            "bio_p1": "Soy un <strong>Desarrollador de Software</strong> que vive en la zona rural de Romita, Guanajuato, especializado en <strong>Java</strong> y tecnologías modernas de <strong>JavaScript</strong>. Disfruto trabajar tanto en sistemas empresariales como en aplicaciones web prácticas que resuelven problemas reales.",
+            "bio_p2": "Cuando no estoy depurando código legacy, me encontrarás trabajando en mi camioneta de los 90s, cuidando de mi familia o construyendo herramientas que ayuden a pequeños negocios a digitalizarse. Mi objetivo es crecer como Senior Full-Stack Developer, combinando disciplina de ingeniería con creatividad práctica."
         },
         "experience": {
             "title": "02. REGISTRO DE MISIONES",
@@ -150,23 +150,23 @@
                 "title": "Desarrollador Java",
                 "company": "E-Global",
                 "date": "Ago 2024 - Presente",
-                "desc1": "Mitigación de vulnerabilidades de seguridad y defectos de alta prioridad detectados por análisis Kiuwan.",
-                "desc2": "Mantenimiento de sistemas Java legacy y ejecución de pruebas de regresión con JUnit y Mockito.",
-                "desc3": "Gestión de control de versiones y documentación para software bancario (NCR Authentic 4.5)."
+                "desc1": "Análisis y resolución de incidentes en sistemas críticos de procesamiento de pagos electrónicos que manejan millones de transacciones diarias.",
+                "desc2": "Mitigación de vulnerabilidades de seguridad y defectos de alta prioridad detectados por Kiuwan, aplicando correcciones sin alterar la lógica del negocio.",
+                "desc3": "Ejecución de pruebas unitarias, de regresión y pruebas de no afectación con JUnit, Mockito e intercambio de mensajes ISO 8583 (NCR Authentic 4.5)."
             },
             "job2": {
                 "title": "Ingeniero de Software Jr",
                 "company": "EPAM Systems",
                 "date": "Ago 2023 - Abr 2024",
-                "desc1": "Desarrollo de funcionalidades basadas en historias de usuario en entorno Agile/Kanban.",
-                "desc2": "Implementación de suites de pruebas QA automatizadas y flujos Git (PRs, merges).",
-                "desc3": "Colaboración con equipos internacionales para entregar soluciones web escalables."
+                "desc1": "Participación en el desarrollo de una aplicación web hospitalaria para gestión de pacientes y citas.",
+                "desc2": "Corrección de bugs, desarrollo de nuevas funcionalidades y actualización de interfaces conforme evolucionaban los servicios backend.",
+                "desc3": "Trabajo con Next.js en una arquitectura serverless desplegada en AWS (EC2, S3, CloudFront, DynamoDB), con soporte a una versión previa basada en PostgreSQL."
             },
             "job3": {
                 "title": "Desarrollador y Soporte",
                 "company": "CIO.MX",
                 "date": "Sep 2022 - Dic 2022",
-                "desc1": "Corrección de bugs y mantenimiento de módulos del sistema web.",
+                "desc1": "Corrección de errores y mantenimiento de módulos internos del sistema web.",
                 "desc2": "Integración y consumo de servicios web para herramientas internas."
             }
         },
@@ -202,39 +202,39 @@
                 {
                     "title": "Rental Management App",
                     "tech": "REACT • CSS • REACT ROUTER",
-                    "desc": "Aplicación web mobile-first para la gestión de rentas de mobiliario para eventos. Diseñada para administrar pedidos y disponibilidad de manera eficiente, con una interfaz limpia y responsiva pensada para uso real.",
+                    "desc": "Aplicación web mobile-first para la gestión de rentas de mobiliario para eventos, enfocada en flujos reales y experiencia de usuario.",
                     "link_preview": "https://rental-management-ivory.vercel.app/",
                     "link_repo": "https://github.com/JesusRamirezB/rental-management"
                 },
                 {
                     "title": "Rentas Andy & Emi",
                     "tech": "REACT • CSS • VERCEL",
-                    "desc": "Aplicación web responsiva para catálogo y cotización de mobiliario de eventos. Digitaliza el catálogo PDF tradicional en una experiencia interactiva con integración de pedidos por WhatsApp.",
+                    "desc": "Sistema de catálogo y cotización que reemplaza un PDF tradicional por una experiencia web moderna con pedidos vía WhatsApp.",
                     "link_preview": "https://rentas-andy-emi.vercel.app/",
                     "link_repo": "https://github.com/JesusRamirezB/rentas-andy-emi"
                 },
                 {
                     "title": "NoDrive-IAA",
                     "tech": "PYTHON • RASPBERRY PI • OPENCV",
-                    "desc": "Sistema Alcolock con reconocimiento facial para vehículos de combustión interna. Ganador del 2º Lugar en TALEN-TIC Campus León."
+                    "desc": "Sistema Alcolock con reconocimiento facial para vehículos de combustión interna. 2º Lugar en TALEN-TIC Campus León."
                 },
                 {
                     "title": "Folder Comparator",
                     "tech": "HTML • CSS • JavaScript",
-                    "desc": "Herramienta web para comparar contenidos de dos carpetas y asegurar que los archivos sean idénticos.",
+                    "desc": "Herramienta web para comparar contenidos de dos carpetas y verificar integridad de archivos.",
                     "link_preview": "https://jesusramirezb.github.io/folder-comparator/",
                     "link_repo": "https://github.com/JesusRamirezB/folder-comparator"
                 },
                 {
                     "title": "DiskSpeedTest",
                     "tech": "Java",
-                    "desc": "Programa que mide las velocidades de lectura y escritura de discos duros.",
+                    "desc": "Programa en Java que mide velocidades de lectura y escritura de discos.",
                     "link_repo": "https://github.com/JesusRamirezB/DiskSpeedTest"
                 },
                 {
                     "title": "Space Shooting Game",
                     "tech": "Python • Pygame",
-                    "desc": "Juego retro de disparos construido con Pygame.",
+                    "desc": "Juego retro de disparos desarrollado con Pygame.",
                     "link_repo": "https://github.com/JesusRamirezB/juego-disparos"
                 }
             ]
@@ -243,7 +243,7 @@
             "title": "05. TROFEOS",
             "degree": "Ingeniería en Sistemas Computacionales",
             "school": "UVEG",
-            "degree_date": "Exp. 2027",
+            "degree_date": "Esperado 2027",
             "degree_status": "Actualmente en progreso con enfoque en desarrollo de Software.",
             "english_cert": "Dominio de Inglés (C2)",
             "english_desc": "Competencia profesional completa para colaboración internacional."

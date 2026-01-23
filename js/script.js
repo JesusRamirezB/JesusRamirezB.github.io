@@ -133,17 +133,17 @@ document.addEventListener('DOMContentLoaded', () => {
             i++;
             timeout = setTimeout(typeWriter, 50);
         } else {
-            setTimeout(backspace, 2000);
+            timeout = setTimeout(backspace, 2000);
         }
     }
 
     function backspace() {
         if (taglineEl.textContent.length > 0) {
             taglineEl.textContent = taglineEl.textContent.slice(0, -1);
-            setTimeout(backspace, 40);
+            timeout = setTimeout(backspace, 40);
         } else {
             i = 0;
-            setTimeout(typeWriter, 400);
+            timeout = setTimeout(typeWriter, 400);
         }
     }
 
