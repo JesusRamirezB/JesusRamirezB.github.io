@@ -224,7 +224,8 @@ footer {
 
 .project-card {
     background: #222;
-    border: 2px dashed #444; /* Dashed border implies "WIP" or secondary item */
+    border: 2px dashed #444;
+    /* Dashed border implies "WIP" or secondary item */
     padding: 15px;
     transition: 0.2s;
 }
@@ -255,6 +256,51 @@ footer {
     line-height: 1.4;
 }
 
-.project-desc a, .project-desc a:visited{
+.project-desc a,
+.project-desc a:visited {
     color: var(--accent-green);
+}
+
+#mobile-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color);
+    padding: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.mobile-nav-links {
+    padding: 0;
+    height: 4rem;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile-nav-link a {
+    height: 100%;
+    width: calc(100vw / 5);
+    text-decoration: none;
+    color: var(--accent-green);
+    font-family: var(--font-retro);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px var(--accent-green);
+}
+
+.mobile-nav-link a.active {
+    background: var(--accent-green);
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    #mobile-nav {
+        display: flex;
+    }
 }

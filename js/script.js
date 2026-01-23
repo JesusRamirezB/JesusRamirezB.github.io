@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem(LANG_KEY, currentLang);
             applyTranslations();
         });
+
+        intersectionObserver();
     }
 
     function getValue(obj, path) {
@@ -154,4 +156,29 @@ document.addEventListener('DOMContentLoaded', () => {
         i = 0;
         typeWriter();
     }
+
+    function intersectionObserver() {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('#mobile-nav a');
+
+        const observerOptions = {
+            threshold: 0.5 // 50% visible
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const sectionId = entry.target.getAttribute('id');
+
+                    navLinks.forEach(link => {
+                        const href = link.getAttribute('href');
+                        link.classList.toggle('active', href === `#${sectionId}`);
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    }
+
 });
