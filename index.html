@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div style="position:absolute; top:20px; right:20px; z-index: 10;">
+    <div class="lang-toggle-container">
         <button id="langToggle" class="btn" data-i18n="nav.toggle_btn"></button>
     </div>
 
@@ -25,7 +25,7 @@
 
         <div class="status-bar" data-i18n="header.status"></div>
 
-        <div style="margin-top: 30px;">
+        <div class="header-cta-wrapper">
             <a href="mailto:jesus.ramirez.bocanegra@gmail.com" class="btn" data-i18n="header.cta"></a>
         </div>
     </header>
@@ -89,27 +89,26 @@
 
         <section id="skills">
             <h2 data-i18n="skills.title"></h2>
-            <p style="margin-bottom: 20px; color: #aaa;" data-i18n="skills.subtitle"></p>
+            <p class="section-subtitle" data-i18n="skills.subtitle"></p>
 
-            <h3 style="font-family: var(--font-retro); color: #fff; margin-bottom: 10px;" data-i18n="skills.section1">
+            <h3 class="subsection-title" data-i18n="skills.section1">
             </h3>
             <div id="skills-lang-container" class="skills-grid"></div>
 
-            <h3 style="font-family: var(--font-retro); color: #fff; margin-top: 20px; margin-bottom: 10px;"
-                data-i18n="skills.section2"></h3>
+            <h3 class="subsection-title mt-large" data-i18n="skills.section2"></h3>
             <div id="skills-tools-container" class="skills-grid"></div>
         </section>
 
         <section id="projects">
             <h2 data-i18n="projects.title"></h2>
-            <p style="margin-bottom: 20px; color: #777; font-size: 0.9rem;" data-i18n="[html]projects.subtitle"></p>
+            <p class="section-subtitle small-text" data-i18n="[html]projects.subtitle"></p>
 
             <div id="projects-container" class="project-grid"></div>
         </section>
 
         <section id="education">
             <h2 data-i18n="education.title"></h2>
-            <div class="job-item" style="border: none;">
+            <div class="job-item no-border">
                 <div class="job-header">
                     <div>
                         <div class="job-title" data-i18n="education.degree"></div>
@@ -117,16 +116,16 @@
                     </div>
                     <div class="date" data-i18n="education.degree_date"></div>
                 </div>
-                <p style="color: #aaa;" data-i18n="education.degree_status"></p>
+                <p class="text-dim" data-i18n="education.degree_status"></p>
             </div>
 
-            <div class="job-item" style="border: none;">
+            <div class="job-item no-border">
                 <div class="job-header">
                     <div>
                         <div class="job-title" data-i18n="education.english_cert"></div>
                     </div>
                 </div>
-                <p style="color: #aaa;" data-i18n="education.english_desc"></p>
+                <p class="text-dim" data-i18n="education.english_desc"></p>
             </div>
         </section>
 
