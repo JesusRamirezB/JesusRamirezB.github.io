@@ -15,7 +15,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* text-align: justify; */
+}
+
+p,
+ul,
+li span {
     text-align: justify;
+}
+
+.tagline {
+    text-align: center;
 }
 
 body {
