@@ -1,3 +1,4 @@
+/* --- VARIABLES --- */
 :root {
     --bg-color: #1a1c18;
     /* Dark earthy background */
@@ -7,15 +8,16 @@
     /* Retro Gameboy Green */
     --accent-soil: #b86f50;
     /* Terracotta/Brick */
+
     --font-retro: 'VT323', monospace;
     --font-main: 'Inter', sans-serif;
 }
 
+/* --- RESET & GLOBALSTYLES --- */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: justify;
 }
 
 body {
@@ -24,6 +26,12 @@ body {
     font-family: var(--font-main);
     line-height: 1.6;
     overflow-x: hidden;
+}
+
+p,
+ul,
+li span {
+    text-align: justify;
 }
 
 /* --- UTILS --- */
@@ -37,6 +45,35 @@ body {
     font-family: var(--font-retro);
 }
 
+.text-dim {
+    color: #aaa;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.mt-large {
+    margin-top: 20px;
+}
+
+.section-subtitle {
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.section-subtitle.small-text {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.subsection-title {
+    font-family: var(--font-retro);
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* --- COMPONENTS: BUTTONS --- */
 .btn {
     display: inline-block;
     background: var(--accent-green);
@@ -58,6 +95,14 @@ body {
 }
 
 /* --- HERO SECTION --- */
+/* Lang Toggle (formerly inline) */
+.lang-toggle-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
 header {
     text-align: center;
     padding: 80px 20px;
@@ -97,6 +142,7 @@ h1 {
     height: 1.3rem;
     color: #aaa;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .status-bar {
@@ -108,6 +154,10 @@ h1 {
     display: inline-block;
     border: 2px solid var(--accent-green);
     margin-top: 20px;
+}
+
+.header-cta-wrapper {
+    margin-top: 30px;
 }
 
 /* --- SECTIONS --- */
@@ -129,7 +179,7 @@ section h2 {
     padding-bottom: 10px;
 }
 
-/* --- EXPERIENCE --- */
+/* --- EXPERIENCE / JOBS --- */
 .job-item {
     margin-bottom: 40px;
     border-left: 2px solid #555;
@@ -192,30 +242,6 @@ section h2 {
     transform: translateY(-2px);
 }
 
-/* --- FOOTER --- */
-footer {
-    text-align: center;
-    padding: 40px;
-    font-family: var(--font-retro);
-    color: #666;
-    border-top: 4px solid #000;
-}
-
-/* --- RESPONSIVE --- */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    .job-header {
-        flex-direction: column;
-    }
-
-    section {
-        padding: 20px;
-    }
-}
-
 /* --- PROJECTS (SIDE QUESTS) --- */
 .project-grid {
     display: grid;
@@ -262,6 +288,15 @@ footer {
     color: var(--accent-green);
 }
 
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 40px;
+    font-family: var(--font-retro);
+    color: #666;
+    border-top: 4px solid #000;
+}
+
 /* --- MOBILE NAV BAR --- */
 #mobile-nav {
     position: fixed;
@@ -269,54 +304,41 @@ footer {
     left: 0;
     width: 100%;
     height: 4rem;
-
     background: var(--bg-color);
     border-top: 2px solid var(--accent-green);
     box-shadow: 0 -4px 0 #000;
-
     display: none;
     z-index: 1000;
 }
 
-/* --- NAV LIST --- */
 .mobile-nav-links {
     height: 100%;
     width: 100%;
     list-style: none;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     padding: 0;
     margin: 0;
 }
 
-/* --- NAV ITEMS --- */
 .mobile-nav-link {
     flex: 1;
     height: 100%;
 }
 
-/* --- LINKS --- */
 .mobile-nav-link a {
     height: 100%;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: var(--accent-green);
     text-decoration: none;
-
     position: relative;
     transition: color 0.15s ease;
-
-    color: var(--accent-green);
 }
 
-/* --- ICON SIZE NORMALIZATION --- */
 .mobile-nav-link svg {
     width: 24px;
     height: 24px;
@@ -324,13 +346,12 @@ footer {
     fill: none;
 }
 
-/* --- ACTIVE STATE (THIS IS THE KEY) --- */
+/* Active State */
 .mobile-nav-link a.active {
     color: #000;
     background: var(--accent-green);
 }
 
-/* pixel-style active indicator */
 .mobile-nav-link a.active::after {
     content: "";
     position: absolute;
@@ -341,14 +362,24 @@ footer {
     background: #000;
 }
 
-/* --- PRESS FEEDBACK --- */
 .mobile-nav-link a:active {
     background: rgba(118, 196, 66, 0.85);
 }
 
-
-/* --- MOBILE ONLY --- */
+/* --- MEDIA QUERIES --- */
 @media (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .job-header {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 20px;
+    }
+
     #mobile-nav {
         display: block;
     }
