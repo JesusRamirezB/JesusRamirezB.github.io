@@ -73,6 +73,13 @@
             "link_repo": "Repository",
             "items": [
                 {
+                    "title": "TortiPOS",
+                    "tech": "REACTjs • CSS • SUPABASE • VERCEL • INDEXEDDB",
+                    "desc": "Tablet-first POS system for small food businesses, with offline support and a dedicated tortilla calculator. (USE DESKTOP OR DESKTOP MODE)",
+                    "link_preview": "https://tortipos.vercel.app/",
+                    "link_repo": "https://github.com/JesusRamirezB/tortipos"
+                },
+                {
                     "title": "Rental Management App",
                     "tech": "REACT • CSS • REACT ROUTER",
                     "desc": "Mobile-first rental management web app built for a real party equipment business, focused on usability, responsive design, and real-world workflows.",
@@ -199,6 +206,13 @@
             "link_preview": "Ver Demo",
             "link_repo": "Repositorio",
             "items": [
+                {
+                    "title": "TortiPOS",
+                    "tech": "REACTjs • CSS • SUPABASE • VERCEL • INDEXEDDB",
+                    "desc": "Sistema POS diseñado para tabletas, dirigido a pequeños negocios de comida, con soporte offline y una calculadora dedicada para tortillas. (USAR EN DESKTOP O MODO ESCRITORIO)",
+                    "link_preview": "https://tortipos.vercel.app/",
+                    "link_repo": "https://github.com/JesusRamirezB/tortipos"
+                },
                 {
                     "title": "Rental Management App",
                     "tech": "REACT • CSS • REACT ROUTER",
